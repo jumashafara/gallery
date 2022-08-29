@@ -1,6 +1,6 @@
 imageContainer = document.querySelector(".image-container");
 
-image_url = "http://localhost:5000/images";
+image_url = "https://image-resource-server.herokuapp.com/images";
 
 const displayImages = async () => {
   const res = await fetch(`${image_url}-list`);
